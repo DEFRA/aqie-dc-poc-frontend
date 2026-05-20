@@ -7,6 +7,10 @@ export const homeController = {
 
     return h.view('home/index', {
       pageTitle: content.pageTitle,
+      searchByLocation: content.searchByLocation,
+      searchByLocationDescription: content.searchByLocationDescription,
+      downloadData: content.downloadData,
+      downloadDataDescription: content.downloadDataDescription,
     })
   }
 }
